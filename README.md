@@ -27,6 +27,10 @@ pip install prefect
 # Server 3 - Frontend NextJS 
 - The core frontend is implemented in React + NextJS for the UI and Interactive, efficent repository management.
 - The repository is connected to the Server 1 and Server 2.
+```bash or Powershell
+npm install
+npm run dev
+```
 
 # Server 4 - MongoDB server
 - The MongoDB local is used for DB as of now.
