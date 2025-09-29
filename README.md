@@ -39,9 +39,13 @@ npm run dev
 - The all Respository files and JSON, csv, Netcdf is stored herr.
 - After selection we will intergrate cloud MongoDB.
 
-#Server 5 - ML server 
+# Server 5 - ML server 
 - The core ML is implemented for the Insights and Data Visualization and predictions.
 - The RAG + GEMINI is integrated for the Query the chatbot regarding the Insights.
+
+# Server 5 - Telegram server
+- The implementation of the Telegram chat service using python
+- This server is implemented to access and get insights from the telegram chatbot securly.
   
 ## Solution Overview
 
