@@ -23,6 +23,11 @@ This repository consist of the 4 main server System.
 - The MongoDB local is used for DB as of now.
 - The all Respository files and JSON, csv, Netcdf is stored herr.
 - After selection we will intergrate cloud MongoDB.
+
+#Server 5 - ML server 
+- The core ML is implemented for the Insights and Data Visualization and predictions.
+- The RAG + GEMINI is integrated for the Query the chatbot regarding the Insights.
+  
 ## Solution Overview
 
 **Marinescope_AI_clone** is a unified, scalable ecosystem designed to automate the collection, processing, and visualization of marine biodiversity data. Its main features include:
