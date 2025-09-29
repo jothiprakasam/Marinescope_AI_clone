@@ -2,9 +2,13 @@
 
 An AI-driven marine biodiversity platform that integrates data ingestion, processing, and visualization
 for real-time insights.
+Our solution integrates automated data ingestion, AI-driven processing, and interactive visualization into a single, scalable
+ecosystem.
+It enables real-time marine biodiversity monitoring and
+updation support.
 
 ## Repository Overview
-This repository consist of the 4 main server System.
+This repository consist of the 5 main server System.
 # Server 1 - Ingestion tool 
 - This server is built on the Prefect Library Python.
 - The prefect alows us to run the Task and Flows efficently which helps in collects oceanographic, biological, and sensor data from APIs and external sources.
