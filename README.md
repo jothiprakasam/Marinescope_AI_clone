@@ -10,7 +10,7 @@ This repository consist of the 4 main server System.
 - The prefect alows us to run the Task and Flows efficently which helps in collects oceanographic, biological, and sensor data from APIs and external sources.
 - Centralized dashboard to configure and manage data flows.
 
-# Server 2 - Python preprocessor tool 
+# Server 2 - Python preprocessor Backend 
 - This preprocessor server is to Cleans, validates, and processes heterogeneous data (CSV, NetCDF, sensor stream).
 - Metadata-based clustering for efficient organization and retrieval.
 - This preprocessor server in implemented in core python ML library which is Pytorch and the logic is impplemented using ARIMA MODEL, ARIMA MODEL, Time series.
