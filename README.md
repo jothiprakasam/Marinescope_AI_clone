@@ -8,7 +8,7 @@ It enables real-time marine biodiversity monitoring and
 updation support.
 
 ## Repository Overview
-This repository consist of the 6 main server System.
+This Project consist of the 6 main server System.
 
 # Server 1 - Ingestion tool 
 - This server is built on the Prefect Library Python.
@@ -26,6 +26,10 @@ python app.py
 - This preprocessor server is to Cleans, validates, and processes heterogeneous data (CSV, NetCDF, sensor stream).
 - Metadata-based clustering for efficient organization and retrieval.
 - This preprocessor server in implemented in core python ML library which is Pytorch and the logic is impplemented using ARIMA MODEL, ARIMA MODEL, Time series.
+``` Setup and Run
+cd python-preprocessor-backend
+python preprocessor_server.py
+```
 
 # Server 3 - Frontend NextJS 
 - The core frontend is implemented in React + NextJS for the UI and Interactive, efficent repository management.
@@ -46,12 +50,26 @@ npm run dev
 
 # Server 6 - Telegram server
 - The implementation of the Telegram chat service using python
-- This server is implemented to access and get insights from the telegram chatbot.
+- This server is implemented to access and get insights from the telegram chatbot securely.
+```
+cd python-telegram-server
+pip install -r requirements.txt
+python create.py
+python tele.py
+```
 
 # Containerization
 This multi server will be managed by the containers by using docker.
 Docker allows us to build and ship the application to make it as image file. So it can be easily deployed in Cloud platforms.
 
+# Telegram service 
+Checkout the bot here : http://t.me/Marinescope_AI_bot
+1. Use `/listfiles` to see all records.
+2. Use `/focus <file_id>` to load a record into memory.
+3. Ask the questions about that specific record.
+4. Use `/unfocus` to clear the memory.
+
+You can also `/download <file_id>` at any time.
 ## Solution Overview
 
 **Marinescope_AI_clone** is a unified, scalable ecosystem designed to automate the collection, processing, and visualization of marine biodiversity data. Its main features include:
