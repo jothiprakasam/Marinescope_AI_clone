@@ -8,7 +8,7 @@ It enables real-time marine biodiversity monitoring and
 updation support.
 
 ## Repository Overview
-This repository consist of the 5 main server System.
+This repository consist of the 6 main server System.
 
 # Server 1 - Ingestion tool 
 - This server is built on the Prefect Library Python.
@@ -44,10 +44,14 @@ npm run dev
 - The core ML is implemented for the Insights and Data Visualization and predictions.
 - The RAG + GEMINI is integrated for the Query the chatbot regarding the Insights.
 
-# Server 5 - Telegram server
+# Server 6 - Telegram server
 - The implementation of the Telegram chat service using python
-- This server is implemented to access and get insights from the telegram chatbot securly.
-  
+- This server is implemented to access and get insights from the telegram chatbot.
+
+# Containerization
+This multi server will be managed by the containers by using docker.
+Docker allows us to build and ship the application to make it as image file. So it can be easily deployed in Cloud platforms.
+
 ## Solution Overview
 
 **Marinescope_AI_clone** is a unified, scalable ecosystem designed to automate the collection, processing, and visualization of marine biodiversity data. Its main features include:
