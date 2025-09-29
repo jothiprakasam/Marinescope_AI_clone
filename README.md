@@ -13,7 +13,12 @@ This repository consist of the 5 main server System.
 - This server is built on the Prefect Library Python.
 - The prefect alows us to run the Task and Flows efficently which helps in collects oceanographic, biological, and sensor data from APIs and external sources.
 - Centralized dashboard to configure and manage data flows.
-
+``` Setup and run for Prefect
+python -m venv venv
+venv\Scripts\activate
+pip install --upgrade pip
+pip install prefect
+```
 # Server 2 - Python preprocessor Backend 
 - This preprocessor server is to Cleans, validates, and processes heterogeneous data (CSV, NetCDF, sensor stream).
 - Metadata-based clustering for efficient organization and retrieval.
