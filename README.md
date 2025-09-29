@@ -1,7 +1,21 @@
-# Marinescope_AI_clone
+# Marinescope_AI
 
-This repository is a clone of the [Marinescope_AI](https://github.com/sankar5302k/Marinescope_AI) project, reimagined as an AI-driven marine biodiversity platform. It integrates automated data ingestion, AI-driven processing, and interactive visualization for real-time marine ecosystem insights.
+An AI-driven marine biodiversity platform that integrates data ingestion, processing, and visualization
+for real-time insights.
 
+## Repository Overview
+This repository consist of the 4 main server System.
+# Server 1 - Ingestion tool 
+- This server is built on the Prefect Library Python.
+- The prefect alows us to run the Task and Flows efficently which helps in collects oceanographic, biological, and sensor data from APIs and external sources.
+- Centralized dashboard to configure and manage data flows.
+
+# Server 2 - Python preprocessor tool 
+- This preprocessor server is to Cleans, validates, and processes heterogeneous data (CSV, NetCDF, sensor stream).
+- Metadata-based clustering for efficient organization and retrieval.
+- This preprocessor server in implemented in core python ML library which is Pytorch and the logic is impplemented using ARIMA MODEL, ARIMA MODEL, Time series.
+
+# Server 3 - 
 ## Solution Overview
 
 **Marinescope_AI_clone** is a unified, scalable ecosystem designed to automate the collection, processing, and visualization of marine biodiversity data. Its main features include:
@@ -45,16 +59,9 @@ This repository is a clone of the [Marinescope_AI](https://github.com/sankar5302
 
 Install dependencies and run the project:
 
-```bash
+```bash or Powershell
 npm install
 npm run dev
-```
-
-Or with pnpm:
-
-```bash
-pnpm install
-pnpm dev
 ```
 
 ## Features
@@ -68,10 +75,3 @@ pnpm dev
 - **Modular Frontend:** Built with reusable components in TypeScript and React.
 - **Rapid UI Development:** Uses Tailwind CSS for fast and responsive design.
 
-## About
-
-This is a forked project and may not include all upstream documentation. For more details, see the original [Marinescope_AI](https://github.com/sankar5302k/Marinescope_AI) repository.
-
----
-
-Feel free to further customize this README with more specific project goals, additional installation steps, and usage instructions!
