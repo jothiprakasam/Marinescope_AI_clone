@@ -15,7 +15,14 @@ This repository consist of the 4 main server System.
 - Metadata-based clustering for efficient organization and retrieval.
 - This preprocessor server in implemented in core python ML library which is Pytorch and the logic is impplemented using ARIMA MODEL, ARIMA MODEL, Time series.
 
-# Server 3 - 
+# Server 3 - Frontend NextJS 
+- The core frontend is implemented in React + NextJS for the UI and Interactive, efficent repository management.
+- The repository is connected to the Server 1 and Server 2.
+
+# Server 4 - MongoDB server
+- The MongoDB local is used for DB as of now.
+- The all Respository files and JSON, csv, Netcdf is stored herr.
+- After selection we will intergrate cloud MongoDB.
 ## Solution Overview
 
 **Marinescope_AI_clone** is a unified, scalable ecosystem designed to automate the collection, processing, and visualization of marine biodiversity data. Its main features include:
